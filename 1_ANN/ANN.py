@@ -104,7 +104,7 @@ x_train = x_train.astype('float32') / 255
 x_test = x_test.astype('float32') / 255
 
 # -------------------------------------------------
-# 4. Modelling
+# 4. Modeling
 # -------------------------------------------------
 
 model = Sequential([
