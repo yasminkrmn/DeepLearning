@@ -45,6 +45,5 @@ if __name__ == '__main__':
     print(f'Actual Close Price of TSLA on {previous_date.strftime("%Y-%m-%d")}: {float(actual_data.Close[-1]):.2f}$')
     print(f'Predicted Close Price of TSLA on {previous_date.strftime("%Y-%m-%d")}: {float(predicted_price):.2f}$')
 
-
 # Actual Close Price of TSLA on 2024-03-25: 172.63$
-# Predicted Close Price of TSLA on 2024-03-25: 179.72$
+# Predicted Close Price of TSLA on 2024-03-25: 178.57$

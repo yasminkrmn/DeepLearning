@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a9d295-1ff7-403f-b912-498c4e49c89e" name="Changes" comment="first">
-      <change afterPath="$PROJECT_DIR$/3_RNN/LSTM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RNN/LSTM_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RNN/LSTMfunction1.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_RNN/jnkj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_ANN/ANN.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_ANN/ANN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_CNN/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_CNN/CNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_RNN/RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RNN/RNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/2_CNN/CNN_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRNN.h5" beforeDir="false" afterPath="$PROJECT_DIR$/3_RNN/SimpleRNN.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnistANNmodel.h5" beforeDir="false" afterPath="$PROJECT_DIR$/1_ANN/mnistANNmodel.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_RNN/LSTM.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RNN/LSTM.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +33,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.LSTM.executor": "Run",
+    "Python.LSTM_Validation (1).executor": "Run",
     "Python.LSTM_function.executor": "Run",
     "Python.jnkj.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,7 +59,76 @@
       <recent name="C:\Users\gayan\Documents\Data_Science_Projects\DeepLearning\2_CNN" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.jnkj">
+  <component name="RunManager" selected="Python.LSTM_Validation (1)">
+    <configuration name="LSTM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepLearning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_RNN/LSTM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LSTM_Validation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepLearning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_RNN/LSTM_Validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LSTM_Validation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepLearning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gayan\Documents\Data_Science_Projects\DeepLearning\3_RNN\LSTM_Validation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LSTM_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepLearning" />
       <option name="ENV_FILES" value="" />
@@ -91,32 +152,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jnkj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DeepLearning" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_RNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_RNN/jnkj.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jnkj" />
+        <item itemvalue="Python.LSTM_Validation (1)" />
+        <item itemvalue="Python.LSTM" />
+        <item itemvalue="Python.LSTM_Validation" />
         <item itemvalue="Python.LSTM_function" />
       </list>
     </recent_temporary>
@@ -138,7 +178,7 @@
       <updated>1711362221471</updated>
       <workItem from="1711362222542" duration="165000" />
       <workItem from="1711362542420" duration="6382000" />
-      <workItem from="1711380166615" duration="53024000" />
+      <workItem from="1711380166615" duration="54060000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -215,7 +255,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeepLearning$jnkj.coverage" NAME="jnkj Coverage Results" MODIFIED="1711496282266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_RNN" />
+    <SUITE FILE_PATH="coverage/DeepLearning$jnkj.coverage" NAME="jnkj Coverage Results" MODIFIED="1711496452911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_RNN" />
+    <SUITE FILE_PATH="coverage/DeepLearning$LSTM_Validation__1_.coverage" NAME="LSTM_Validation (1) Coverage Results" MODIFIED="1711496814061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_RNN" />
     <SUITE FILE_PATH="coverage/DeepLearning$LSTM_function.coverage" NAME="LSTM_function Coverage Results" MODIFIED="1711492597565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_RNN" />
+    <SUITE FILE_PATH="coverage/DeepLearning$LSTM.coverage" NAME="LSTM Coverage Results" MODIFIED="1711496742602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_RNN" />
   </component>
 </project>
