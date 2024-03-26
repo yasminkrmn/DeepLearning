@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40a9d295-1ff7-403f-b912-498c4e49c89e" name="Changes" comment="first" />
+    <list default="true" id="40a9d295-1ff7-403f-b912-498c4e49c89e" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/3_RNN/RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RNN/international-airline-passengers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleRNN.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +70,7 @@
       <updated>1711362221471</updated>
       <workItem from="1711362222542" duration="165000" />
       <workItem from="1711362542420" duration="6382000" />
-      <workItem from="1711380166615" duration="20695000" />
+      <workItem from="1711380166615" duration="32971000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -107,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711410444805</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first">
+      <option name="closed" value="true" />
+      <created>1711449412781</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711449412781</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
