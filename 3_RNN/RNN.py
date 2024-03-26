@@ -182,17 +182,15 @@ X_test, y_test = create_features(test, lookback=1)
 
 print(X_train.shape, y_train.shape, X_test.shape, y_test.shape)
 # (95, 1) (95,) (47, 1) (47,)
-"""
-type(X_train.reshape(95,1,1).shape)
-X_test = np.reshape(X_test, (X_test.shape[0],1, X_test.shape[1]))
-y_train = y_train.reshape(-1,1)
-y_test = y_test.reshape(-1,1)
-"""
+
 
 X_train = X_train.reshape(X_train.shape[0],1, X_train.shape[1])
 X_test = X_test.reshape(X_test.shape[0],1, X_test.shape[1])
 y_train = y_train.reshape(-1,1)
 y_test = y_test.reshape(-1,1)
+
+print(X_train.shape, y_train.shape, X_test.shape, y_test.shape)
+# (95, 1, 1) (95, 1) (47, 1, 1) (47, 1)
 
 #-----------------------------------------------
 # 3. Modeling
@@ -235,7 +233,7 @@ history = model.fit(x=X_train, y=y_train,
 
 
 # -------------------------------------------------
-# 5. Model Evaluation
+# 4. Model Evaluation
 # -------------------------------------------------
 
 # LOSS:
@@ -283,7 +281,7 @@ print('Test Std:', np.round(np.std(y_test),2))
 # Test Std: 77.14
 
 # -------------------------------------------------
-# 6. Visualization of Prediction
+# 5. Visualization of Prediction
 # -------------------------------------------------
 
 train_predicted_df = df[1:position]
