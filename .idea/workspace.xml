@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a9d295-1ff7-403f-b912-498c4e49c89e" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/3_RNN/LSTM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RNN/LSTM_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RNN/LSTMfunction1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_RNN/jnkj.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_ANN/ANN.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_ANN/ANN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_CNN/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_CNN/CNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_RNN/RNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_RNN/RNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/2_CNN/CNN_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRNN.h5" beforeDir="false" afterPath="$PROJECT_DIR$/3_RNN/SimpleRNN.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnistANNmodel.h5" beforeDir="false" afterPath="$PROJECT_DIR$/1_ANN/mnistANNmodel.h5" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +41,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gayan/Documents/Data_Science_Projects/DeepLearning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.LSTM_function.executor": "Run",
+    "Python.jnkj.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/gayan/Documents/Data_Science_Projects/DeepLearning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gayan\Documents\Data_Science_Projects\DeepLearning\1_ANN" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gayan\Documents\Data_Science_Projects\DeepLearning\1_ANN" />
+      <recent name="C:\Users\gayan\Documents\Data_Science_Projects\DeepLearning\3_RNN" />
+      <recent name="C:\Users\gayan\Documents\Data_Science_Projects\DeepLearning\2_CNN" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.jnkj">
+    <configuration name="LSTM_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepLearning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_RNN/LSTM_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jnkj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepLearning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3_RNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_RNN/jnkj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.jnkj" />
+        <item itemvalue="Python.LSTM_function" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -68,7 +138,7 @@
       <updated>1711362221471</updated>
       <workItem from="1711362222542" duration="165000" />
       <workItem from="1711362542420" duration="6382000" />
-      <workItem from="1711380166615" duration="34779000" />
+      <workItem from="1711380166615" duration="53024000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -118,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711449412781</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first">
+      <option name="closed" value="true" />
+      <created>1711466319096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711466319096</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first">
+      <option name="closed" value="true" />
+      <created>1711466550859</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711466550859</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +213,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeepLearning$jnkj.coverage" NAME="jnkj Coverage Results" MODIFIED="1711496282266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_RNN" />
+    <SUITE FILE_PATH="coverage/DeepLearning$LSTM_function.coverage" NAME="LSTM_function Coverage Results" MODIFIED="1711492597565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_RNN" />
   </component>
 </project>

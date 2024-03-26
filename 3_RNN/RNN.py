@@ -154,13 +154,16 @@ test[0:3]
 #        [0.        ],
 #        [0.17133951]], dtype=float32)
 
-def create_features(data, lookback):
+
+#---------------- Extracting Sequantial X and Y -------------------
+
+def extract_seqX_Y(data, lookback):
     """
     Create input features and target labels from time series data.
 
     Parameters:
     - data (numpy.ndarray): The input time series data.
-    - lookback (int): The number of previous time steps to use as features.
+    - lookback (int): Window size. The number of previous time steps to use as features.
 
     Returns:
     - X (numpy.ndarray): Input features, a 2D numpy array where each row contains the
@@ -177,12 +180,13 @@ def create_features(data, lookback):
     return np.array(X), np.array(y)
 
 
-X_train, y_train = create_features(train, lookback=1)
-X_test, y_test = create_features(test, lookback=1)
+X_train, y_train = extract_seqX_Y(train, lookback=1)
+X_test, y_test = extract_seqX_Y(test, lookback=1)
 
 print(X_train.shape, y_train.shape, X_test.shape, y_test.shape)
 # (95, 1) (95,) (47, 1) (47,)
 
+#---------------- 2-Dimension To 3-Dimension -------------------
 
 X_train = X_train.reshape(X_train.shape[0],1, X_train.shape[1])
 X_test = X_test.reshape(X_test.shape[0],1, X_test.shape[1])

@@ -1,5 +1,5 @@
 # -------------------------------------------------
-# Prediction of Handwritten Digits - MNIST
+# PREDICTION OF HANDWRITTEN DIGITS - MNIST
 # -------------------------------------------------
 import tensorflow as tf
 from tensorflow.keras.datasets import mnist
