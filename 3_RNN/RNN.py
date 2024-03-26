@@ -282,11 +282,36 @@ print('Test Std:', np.round(np.std(y_test),2))
 # Test Mean: 415.57
 # Test Std: 77.14
 
+# -------------------------------------------------
+# 6. Visualization of Prediction
+# -------------------------------------------------
 
+train_predicted_df = df[1:position]
+train_predicted_df["Predicted"] = train_predict
+train_predicted_df.head(3)
+#             Passengers   Predicted
+# Month
+# 1949-02-01       118.0  133.908920
+# 1949-03-01       132.0  136.690216
+# 1949-04-01       129.0  144.057098
 
+test_predicted_df = df[1+position:]
+test_predicted_df["Predicted"] = test_predict
+test_predicted_df.head(3)
+#             Passengers   Predicted
+# Month
+# 1957-02-01       301.0  334.707733
+# 1957-03-01       356.0  328.487823
+# 1957-04-01       348.0  365.283600
 
-
-
+plt.figure(figsize=(14,5))
+plt.plot(df, label='Actual Numbers of Passengers')
+plt.plot(train_predicted_df['Predicted'], label='Train Predicted Numbers of Passengers', color='blue')
+plt.plot(test_predicted_df['Predicted'], label='Test Predicted Numbers of Passengers', color='red')
+plt.legend(loc='upper left')
+plt.xlabel('Time')
+plt.ylabel('Number of Passengers')
+plt.show()
 
 
 
